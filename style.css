@@ -1,0 +1,200 @@
+@import url(stil-mallar/bg-color.css);
+@import url(stil-mallar/header.css);
+@import url(stil-mallar/spacing.css);
+@import url(stil-mallar/img.css);
+@import url(stil-mallar/divider_border.css);
+@import url(stil-mallar/button.css);
+@import url(stil-mallar/products.css);
+*/ {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    background-image: url(images/annie-spratt-L6GydBHMVGQ-unsplash.webp);
+    background-size: contain;
+}
+#wrapper {
+    width: 1300px;
+    margin: 0 auto;
+}
+.container {
+    color: rgb(247, 237, 216);
+    width: 100%;
+}
+.container p {
+    font-size: 20px;
+    line-height: 1.7em;
+}
+.card-flex-column {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0 2rem 0;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+.card-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    gap: 20px;
+    padding-top: 3rem;
+}
+.card-text {
+    padding-top: 1rem;
+    width: 60%;
+    text-align: center;
+}
+.card-txt-left {
+    text-align: left;
+    width: 50%;
+}
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(247, 237, 216);
+    padding: 30px 50px 30px 50px;
+    font-size: 18px;
+}
+.quote p:first-child{
+    font-style: italic;
+}
+
+@media (max-width: 1200px) {
+    #wrapper {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .container {
+        margin: 130px auto 0;
+        width: 95%;
+    }
+    .card-flex-row > .img-small {
+        width: 40%;
+    }
+    .card-txt-left {
+        width: 40%;
+    }
+    .quote {
+        width: 50%;
+    }
+}
+
+@media (max-width: 800px) {
+    .menu-icon {
+        display: block;
+        background: none;
+        border: none;
+        width: 30px;
+        color: rgb(247, 237, 216);
+        font-size: 30px;
+        cursor: pointer;
+        position: absolute;
+        top: 5px;
+        right: 35px;
+        z-index: 1001; 
+    }
+    
+    .menu {
+        display: none;
+        flex-direction: row; 
+        position: absolute;
+        color: rgb(247, 237, 216);
+        top: 60px;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        justify-content: center; 
+    }
+
+    .menu.show {
+        display: flex;
+    }
+
+    .header nav a {
+        text-align: center;
+        padding: 5px 10px;
+        text-decoration: none;
+        font-size: 18px;
+        display: block;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 17px;
+    }
+    .container p {
+        font-size: 16px;
+    }
+    .card-txt-left {
+        text-align: center;
+        width: 80%;
+    }
+    .btn-a {
+        font-size: 18px;
+        padding: 0.5rem;
+    }
+    .card-flex-column {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .pt-150 {
+        padding-top: 1rem;
+    }
+    .card-flex-row > .img-small {
+        width: 55%;
+    }
+    .card-flex-row {
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        text-align: center !important;
+        width: 90%;
+    }
+    .card-flex-row .img-big {
+        width: 70%;
+    }
+    .card-text {
+        width: 80%;
+    }
+    .container-jewelry {
+        display: flex;
+        flex-direction: column;
+        padding-top: 5rem;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .jewelry-width {
+        width: 70%;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    .footer > .card-txt-left {
+        text-align: left;
+    }
+    .footer p {
+        font-size: 16px;
+    }
+    .quote {
+        width: 80%;
+    }
+}
+@media (max-width: 500px) {
+    .header nav a {
+        text-align: center;
+        padding: 5px 5px;
+        text-decoration: none;
+        font-size: 15px;
+        display: block;
+    }
+    .img-medium {
+        width: 80%;
+    }
+}

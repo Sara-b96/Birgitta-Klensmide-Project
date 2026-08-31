@@ -1,0 +1,13 @@
+.divider {
+    border-bottom: 5px solid rgba(57, 57, 57, 0.742);
+    box-shadow: 0 4px 8px 0 rgba(247, 237, 216), 0 6px 20px 0 rgb(247, 237, 216);
+    margin: 0 auto;
+    width: 70%;
+}
+.divider-vertical {
+    border-left: 6px solid rgba(57, 57, 57, 0.742);
+    box-shadow: 0 4px 8px 0 rgba(247, 237, 216), 0 6px 20px 0 rgb(247, 237, 216);
+}
+.border-color {
+    box-shadow: 0 4px 8px 0 rgba(247, 237, 216), 0 6px 20px 0 rgb(247, 237, 216);
+}

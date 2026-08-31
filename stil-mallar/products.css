@@ -1,0 +1,27 @@
+.products {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0 2rem 0;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+.products-h1 {
+    width: 60%;
+}
+.container-jewelry {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+    justify-content: center;
+    gap: 20px;
+}
+.jewelry-width {
+    width: 40%;
+}
+.jewelry-box {
+    width: 30%;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(247, 237, 216), 0 6px 20px 0 rgb(247, 237, 216);
+}

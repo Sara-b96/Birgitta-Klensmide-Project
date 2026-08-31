@@ -1,0 +1,28 @@
+.spacing-small {
+    height: 50px;
+}
+
+.spacing-medium {
+    height: 80px;
+}
+
+.spacing-big {
+    height: 120px;
+}
+.pt-150{
+    padding-top: 150px;
+}
+.mt-120 {
+    margin-top: 120px;
+}
+.mt-2 {
+    margin-top: 5rem;
+}
+.inline-block {
+    display: inline-block;
+    padding: 2rem;
+    font-size: 20px;
+}
+.inline-block input {
+    line-height: 1.5rem;
+}

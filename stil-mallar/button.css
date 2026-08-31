@@ -1,0 +1,45 @@
+#btn-jewelry {
+    background-color: rgb(57, 57, 57);
+    color: rgb(247, 237, 216);
+    font-size: 18px;
+    padding: 1rem;
+    border-radius: 10px;
+}
+#btn-jewelry:hover {
+    box-shadow: 0 4px 8px 0 rgba(247, 237, 216), 0 6px 20px 0 rgb(247, 237, 216);
+}
+.btn-submit {
+    background-color: rgb(57, 57, 57);
+    color: rgb(247, 237, 216);
+    font-size: 18px;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+.btn-submit:hover {
+    box-shadow: 0 4px 8px 0 rgba(247, 237, 216), 0 6px 20px 0 rgb(247, 237, 216);
+}
+.btn-a {
+    background-color: rgb(57, 57, 57);
+    color: rgb(247, 237, 216);
+    font-size: 20px;
+    padding: 1rem;
+    text-decoration: none;
+    border: 5px solid rgb(57, 57, 57);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(247, 237, 216), 0 6px 20px 0 rgb(247, 237, 216);
+}
+a:hover {
+    color: rgb(57, 57, 57);
+    font-weight: bold;
+    background-color: rgb(247, 237, 216);
+    padding: 1.5rem;
+    border: none;
+}
+.btn-contact {
+    color: rgb(247, 237, 216);
+}
+.btn-contact:hover {
+    color: rgb(247, 242, 233);
+    background-color: transparent;
+    padding: 0;
+}

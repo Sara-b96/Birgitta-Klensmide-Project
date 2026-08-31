@@ -1,0 +1,21 @@
+.logotyp {
+    width: 90px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.img-small {
+    width: 30%;
+    height: auto;
+}
+
+.img-medium {
+    width: 50%;
+    height: auto;
+}
+
+.img-big {
+    width: 90%;
+    height: auto;
+}

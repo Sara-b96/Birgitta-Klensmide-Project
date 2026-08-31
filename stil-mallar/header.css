@@ -1,0 +1,36 @@
+#sticky {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    left: 0;
+    width: 100vw;
+    
+}
+/*
+#sticky + main {
+    margin-top: 70px;
+}
+*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.header nav a {
+    display: inline-block;
+    color: rgb(247, 237, 216);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 2rem;
+}
+.header nav a:hover {
+    color: rgb(247, 237, 216);
+    background-color: rgb(57, 57, 57);
+    border-radius: 5px;
+}
+.menu-icon {
+    display: none;
+}
